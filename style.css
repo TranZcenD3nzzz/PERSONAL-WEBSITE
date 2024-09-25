@@ -1,12 +1,8 @@
-p {font-size: 18px;
+* {
+    margin: 0;
 }
-
-a {font-size: 24px;
-color: blueviolet;
-}
-
 h1 {
-    color: teal;
+    color: #008080;
 }
 
 #paragraph01 {
@@ -14,10 +10,28 @@ h1 {
 }
 
 .primary-link {
-    color: cyan;
+    color: #0b7474;
 }
 
 .primary-link:hover {
     color: blueviolet;
 }
 
+.padding-demo {
+    /*.padding-demo: 30px; */
+    background-color: #ffc0cb;
+    border: 2px solid #000000;
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+.margin-demo {
+    border: 2px solid #0000ff;
+}
+
+.relative-position {
+    background-color: gold;
+    position: relative;
+}
