@@ -21,3 +21,28 @@
     border: 1px solid green;
     background-color: teal;
 }
+
+/* Flexbox.html */
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    align-items: center;
+}
+
+.box {
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    padding: 50px;
+    margin: 25px 30px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.item-01 {height: 230px;}
+.item-02 {height: 210px;}
+.item-03 {height: 190px;}
+
